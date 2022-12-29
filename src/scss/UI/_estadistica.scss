@@ -8,4 +8,7 @@
         @include m.headingBorder(v.$secundario, v.$primario)
     }
 
+    &__descripcion {
+        color: v.$blanco;
+    }
 }

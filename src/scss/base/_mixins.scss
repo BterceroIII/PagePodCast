@@ -45,6 +45,7 @@
     }
 }
 
+
 @mixin grid($columnas, $espaciado ) {
     display: grid;
     gap: $espaciado;
@@ -57,6 +58,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+}
+
+@mixin iconoBg($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: 50% 2rem;
+    background-size: 10rem;
 }
 
 
